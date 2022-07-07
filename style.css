@@ -1,0 +1,47 @@
+
+body {
+  background: rgb(226, 226, 226);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  background: rgb(202, 232, 235);
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 1em;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+#text {
+  width: 80%;
+  max-width: 80%;
+  min-width: 80%;
+  display: block;
+  margin: auto;
+  min-height: 300px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+#results {
+  text-align: center;
+  background: rgb(202, 232, 235);
+  margin: 1em auto;
+  padding: 1em;
+}
+
+.box-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left-section {
+  margin: 0 0 3em 0;
+}
+
+.right-section { 
+  font-weight: bold;
+  margin: 3em;
+}
